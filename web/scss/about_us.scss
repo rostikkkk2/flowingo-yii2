@@ -1,0 +1,30 @@
+@import 'base';
+
+.popup {
+  @include border-popup;
+  z-index: 1;
+  background-color: $bgc-body;
+  box-shadow: 0 0 5px;
+  width: 100%;
+  font-size: 15px;
+}
+
+h1 {
+  color: $color-text;
+}
+
+.circle {
+  @include border-about-us;
+  border-radius: 50%;
+}
+
+.pictures {
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+}
+
+span {
+  color: $gray;
+  font-size: 20px;
+}
